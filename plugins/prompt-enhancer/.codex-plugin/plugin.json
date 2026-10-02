@@ -1,0 +1,50 @@
+{
+  "name": "prompt-enhancer",
+  "version": "0.2.1",
+  "description": "Rewrite a draft prompt or coding task into a clear, agent-ready brief before you send it. Returns one rewritten prompt; never runs the task.",
+  "author": {
+    "name": "Prompt Enhancer",
+    "url": "https://promptgenerator.tools/"
+  },
+  "homepage": "https://promptgenerator.tools/chatgpt",
+  "repository": "https://github.com/bitcompool/prompt-enhancer-codex-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "prompt enhancer",
+    "ai prompt enhancer",
+    "prompt optimizer",
+    "ai prompt optimizer",
+    "prompt optimization",
+    "prompt improver",
+    "improve prompt",
+    "prompt engineering",
+    "coding task",
+    "agent brief"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prompt Enhancer",
+    "shortDescription": "Enhance and optimize prompts",
+    "longDescription": "Prompt Enhancer is an AI prompt enhancer and prompt optimizer for Codex and ChatGPT. It improves a rough prompt or coding task and gives it back as one clear, ready-to-send prompt. It never runs the task. It keeps your names, numbers, links, code and constraints exactly as written, adds only the guidance a vague draft is missing, and never invents facts or placeholders.",
+    "developerName": "Prompt Enhancer",
+    "category": "Productivity",
+    "capabilities": [
+      "Improve a rough prompt before you send it",
+      "Turn a vague coding task into an agent-ready brief",
+      "Optimize prompts without running the task"
+    ],
+    "websiteURL": "https://promptgenerator.tools/",
+    "supportURL": "https://promptgenerator.tools/feedback",
+    "privacyPolicyURL": "https://promptgenerator.tools/privacy",
+    "termsOfServiceURL": "https://promptgenerator.tools/terms",
+    "defaultPrompt": [
+      "Improve this task before I give it to Codex: fix the crash when I click Save.",
+      "Rewrite this into a clear brief: add rate limiting to the API.",
+      "Improve this prompt before I send it: write a blog post about fitness."
+    ],
+    "brandColor": "#E85D4A",
+    "brandColorDark": "#E85D4A",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}
