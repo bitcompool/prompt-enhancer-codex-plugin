@@ -39,6 +39,24 @@ Check what Codex sees:
 codex plugin marketplace list
 ```
 
+### For workspaces (Business, Enterprise, Edu)
+
+A workspace admin can import this marketplace into the workspace directory, so
+members can install the plugin from there:
+
+1. In the Admin Console, select the workspace and open **Plugins**.
+2. Select **Add**, then **Import marketplace**.
+3. In **Source**, enter `https://github.com/bitcompool/prompt-enhancer-codex-plugin`.
+   Leave **Path** and **Branch, tag, or commit** empty: the marketplace is at
+   the repository root and the default branch is used.
+4. Select **Import marketplace**, authorize GitHub access if asked, then open
+   **Prompt Enhancer** and set its installation policy for the roles you want.
+
+The workspace syncs the marketplace daily (**Sync now** forces an update).
+Import copies the plugin only; it connects no accounts and needs no apps. See
+OpenAI's guide:
+[Importing and syncing plugin marketplaces from GitHub](https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github).
+
 ## Use it
 
 Just ask. Codex loads the skill when you want a prompt improved:
